@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = Omniauth::IDme::VERSION
   s.authors     = %w(ID.me)
   s.email       = %w(awesome@id.me)
-  s.homepage    = "https://github.com/troopswap/omniauth-idme"
+  s.homepage    = "https://github.com/IDme/omniauth-idme"
   s.summary     = "ID.me strategy for OmniAuth"
   s.description = "ID.me strategy for OmniAuth"
 
