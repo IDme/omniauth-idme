@@ -34,7 +34,7 @@ By default the scope passed to the ID.me API is military. If you would like to s
       :scope => "scope"
     end
 
-Register your app at https://sandbox.developer.id.me/ during development and https://developer.id.me/ for production. Once your app has been approved you'll receive a consumer token and secret.
+Register your app at https://sandbox.id.me/ during development and https://id.me/ for production. Once your app has been approved you'll receive a consumer token and secret.
 
 ## TODO:
 - add multi-scope support
