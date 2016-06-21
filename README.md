@@ -18,20 +18,20 @@ Add the strategy to your `Gemfile` alongside OmniAuth:
 In a Rack application:
 
     use OmniAuth::Builder do
-      provider :idme, "consumer_key", "consumer_secret"
+      provider :idme, "consumer_key", "consumer_secret", provider_ignores_state: true
     end
 
 For Rails, put this in your OmniAuth configuration file (config/initializers/omniauth.rb):
 
     Rails.application.config.middleware.use OmniAuth::Builder do
-      provider :idme, "consumer_key", "consumer_secret"
+      provider :idme, "consumer_key", "consumer_secret", provider_ignores_state: true
     end
 
 By default the scope passed to the ID.me API is military. If you would like to support another scope, put this in your OmniAuth configuration file (config/initializers/omniauth.rb):
 
     Rails.application.config.middleware.use OmniAuth::Builder do
       provider :idme, "consumer_key", "consumer_secret",
-      :scope => "scope"
+      scope: "scope", provider_ignores_state: true
     end
 
 Register your app at https://developer.id.me/ for both development and production. Once your app has been approved you'll receive a consumer token and secret.
