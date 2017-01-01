@@ -4,7 +4,7 @@ This gem contains the ID.me strategy for [OmniAuth 2.0](https://github.com/intri
 
 ID.me offers online brands a secure, real-time method for verifying the military affiliation of their customers online. By verifying military affiliation companies can tailor the user experience on their platform to offer discounts or other benefits.
 
-Read our [documentation](https://developer.id.me/docs) to learn more about how to integrate.
+Read our [documentation](https://developer.id.me/documentation) to learn more about how to integrate.
 
 ## How To Use It
 
